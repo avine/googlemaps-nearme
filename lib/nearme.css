@@ -1,0 +1,52 @@
+
+body {
+  margin: 1em;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+a, a:visited {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+header {
+  font-size: 4em;
+  text-shadow: 2px 2px 1px #bbb;
+}
+
+input, button, select {
+  margin-bottom: 1em;
+  padding: .5em;
+  font-size: inherit;
+  text-align: center;
+}
+
+#avn-geo-message {
+  margin: 1em 0;
+  font-size: 1em;
+  min-height: 1.5em;
+}
+
+#avn-geo-map {
+  margin: 0 auto 1em auto;
+  max-width: 100%;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: left;
+}
+
+.avn-geo-map-info h3, .avn-geo-map-info p {
+  margin: 0 0 1em 0;
+}
